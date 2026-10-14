@@ -1,25 +1,25 @@
 class Tapin < Formula
   desc "An inbox for your AI coding agents. Approve, jump, done."
   homepage "https://github.com/Thevi99/tapin"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Thevi99/tapin/releases/download/v0.1.0/tapin-aarch64-apple-darwin.tar.xz"
-      sha256 "2a2cfdc529ff40b0ebb79e932e36a3cd323fa553f62bb222cfe27a1c43965961"
+      url "https://github.com/Thevi99/tapin/releases/download/v0.2.0/tapin-aarch64-apple-darwin.tar.xz"
+      sha256 "eb511c5625eb11c4cc1549302b2ee8283eb80c664d2cb6aa6301f2cc2a758c24"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Thevi99/tapin/releases/download/v0.1.0/tapin-x86_64-apple-darwin.tar.xz"
-      sha256 "bc4f4bbb81887c78e8983729e3e9cb2e96e04d590c65009456710e9b3146c5fd"
+      url "https://github.com/Thevi99/tapin/releases/download/v0.2.0/tapin-x86_64-apple-darwin.tar.xz"
+      sha256 "0945fa96671c5679ed61c940f50cb39149d668273cceb1b582692c01acb5924f"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Thevi99/tapin/releases/download/v0.1.0/tapin-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "9faa503670d6abea301778c693ef9bfd876e690999a95106d0ff1c4e7a35c951"
+      url "https://github.com/Thevi99/tapin/releases/download/v0.2.0/tapin-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "d61776c8575d4f189705928958b36b6f0f6ff63258558d69f752d7b45daedbee"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Thevi99/tapin/releases/download/v0.1.0/tapin-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "0bfdd46706a594b58e453442334a7e312b11c41736318c613b00367030a301a6"
+      url "https://github.com/Thevi99/tapin/releases/download/v0.2.0/tapin-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "ed6c8f29a06428573edcac100f488fae336fd73f8a58eeb2936dd331cb76e4c8"
     end
   end
   license "MIT"
